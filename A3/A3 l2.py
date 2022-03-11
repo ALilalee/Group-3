@@ -9,7 +9,7 @@ for price in prices:
 # added round to keep decimals short 
 average_price= round(total_price/len(prices),2)
 print("Average Haircut Price: $" + str(average_price))
-new_prices =[price -5 for price in prices]
+new_prices =[price -5 for price in prices]                # subtract the price by 5 for every price in the list "prices"
 # Here are the updated prices after decreasing by 5 dollars
 print(new_prices)
 # revenue 
