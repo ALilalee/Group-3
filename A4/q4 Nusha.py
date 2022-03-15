@@ -11,8 +11,9 @@
 # Use the below code snippet to start the problem:
 
 # #Write your function here
-
-
+from pickle import FALSE, TRUE
+def more_than_n(lst, item, n):
+    count=int(lst.count(item))
+    return TRUE if count>n else FALSE
 # #Uncomment the line below when your function is done
-# #print(more_than_n([2, 4, 6, 2, 3, 2, 1, 2], 2, 3))
-print ("hello")
+print(more_than_n([2, 4, 6, 2, 3, 2, 1, 2], 2, 3))
