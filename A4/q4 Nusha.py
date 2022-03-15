@@ -27,7 +27,7 @@
 
 def more_than_n(lst, item, n):
     count=int(lst.count(item))
-    if count >= n:
+    if count > n:
         return True 
     else:return False
 # #Uncomment the line below when your function is done
